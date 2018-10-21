@@ -14,6 +14,7 @@ const Tx = require('ethereumjs-tx');
 const keythereum = require('keythereum');
 const ethUtil = require('ethereumjs-util');
 const BigNumber = require('bignumber.js');
+const SmallNumber = require('smallnumber.js');
 
 module.exports = (config) => {
   const utility = {};
